@@ -1,0 +1,52 @@
+.primeiraSection {
+    height: 75vh;
+    width: 100%;
+    background-image: url('../../assets/iconvenhafazerparte.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+
+    h2 {
+        color: #FFF;
+        font-size: 32px;
+        width: 20%;
+    }
+}
+
+.segundaSection {
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2 {
+        width: 90%;
+        font-size: 40px;
+        color: #005695;
+    }
+}
+
+.divMotivos {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+
+    section {
+        background-color: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+
+        p {
+            font-size: 22px;
+            text-align: center;
+            width: 80%;
+        }
+    }
+}

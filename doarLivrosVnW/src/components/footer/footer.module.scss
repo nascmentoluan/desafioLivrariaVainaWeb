@@ -1,0 +1,38 @@
+.primeiraSeção{
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    color: #fff;
+    p{
+        margin-left: 4vw;
+      
+    }
+
+    nav{
+
+        display: flex;
+        align-items: center;   
+        margin-right: 4vw;  
+        a{
+            img{
+
+                height: 4vh;
+                
+                margin-right: 6px;
+                
+            }
+        }       
+    }
+    
+}
+
+.segundaSeção{
+    background-color: #232020;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
